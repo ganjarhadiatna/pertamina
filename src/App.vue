@@ -2,6 +2,7 @@
   <div id="app">
 	
 	<router-view></router-view>
+	<router-view name="second"></router-view>
 
   </div>
 </template>

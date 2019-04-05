@@ -22,6 +22,10 @@
     font-family: 'Open Sans', 'Rubik', $font;
 }
 
+html {
+    background-color: #f8f8f8;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,12 +34,14 @@ a {
     border-bottom: $border;
 }
 
+// for login page
 .app-login {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    overflow-y: auto;
     background-color: $min-color;
     .a-l-top {
         position: relative;
@@ -58,8 +64,8 @@ a {
 
     .a-l-mid {
         position: relative;
-        width: calc(100% - 50px);
-        padding: 0 25px;
+        width: calc(100% - 40px);
+        padding: 0 20px;
         .a-l-form {
             position: relative;
             width: 100%;
@@ -90,6 +96,173 @@ a {
         position: relative;
         width: 100%;
         margin: 100px 0;
+    }
+
+}
+
+// for homepage
+// app panel
+.app-panel {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    .app-panel-main {
+        position: relative;
+        width: calc(100% - 40px);
+        height: 60px;
+        padding: 0 20px;
+        &.a-p-grid-2 {
+            @include grid_2x(60px, 1fr);
+            .a-p-col-1 {
+                position: relative;
+                width: 100%;
+                @include column_n(1);
+            }
+            .a-p-col-2 {
+                position: relative;
+                width: 100%;
+                @include column_n(2);
+            }
+        }
+        &.a-p-grid-3 {
+            @include grid_3x(50px, 1fr, 60px);
+            .a-p-col-1 {
+                position: relative;
+                width: 100%;
+                @include column_n(1);
+            }
+            .a-p-col-2 {
+                position: relative;
+                width: 100%;
+                @include column_n(2);
+            }
+            .a-p-col-3 {
+                position: relative;
+                width: 100%;
+                @include column_n(3);
+            }
+        }
+        .a-p-logo {
+            position: relative;
+            top: 15px;
+            width: 100%;
+            img {
+                position: relative;
+                width: 40px;
+            }
+        }
+        .a-p-title {
+            @include post_top(relative);
+        }
+    }
+}
+
+.app-content {
+    position: relative;
+    top: 60px;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+
+.app-banner {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    img {
+        height: 100%;
+    }
+}
+
+.app-card {
+    position: relative;
+    width: calc(100% - 20px);
+    margin: 10px 10px;
+    display: flex;
+    flex-shrink: inherit;
+}
+
+.app-circle {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    text-align: center;
+    .icn {
+        font-size: 12pt;
+        color: $txt-14-color;
+        &.active {
+            color: $min-color;
+        }
+    }
+}
+
+.app-page {
+    position: relative;
+    width: $max-width;
+    margin: auto;
+    @media (max-width: $max-width) {
+        width: 100%;
+    }
+}
+
+
+// profile page
+.app-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    .app-profile-main {
+        @include post_top(relative);
+        width: calc(100% - 80px);
+        padding: 40px 20px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 15px;
+        text-align: center;
+        .a-p-m-top {
+            position: relative;
+            width: 100%;
+            margin-bottom: 30px;
+            .a-p-m-logo {
+                position: relative;
+                margin: auto;
+                width: 140px;
+                height: 140px;
+                border-radius: 100%;
+                border: 5px $min-color solid;
+                background-color: #fff;
+                overflow: hidden;
+                img {
+                    @include post_center(absolute);
+                    width: 100px;
+                }
+            }
+        }
+        .a-p-m-mid {
+            margin: 20px 0;
+        }
+    }
+
+    .app-profile-button {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        .btn {
+            @include post_center(relative);
+        }
     }
 
 }

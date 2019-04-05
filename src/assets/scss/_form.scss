@@ -228,16 +228,13 @@ $min-height: 60px;
 		}
 	}
 	&.btn-sekunder-color {
-		background-color: $sek-color;
+		background-color: #fff;
 		color: $min-color;
-		border: 1px $min-color solid;
+		border: 2px $min-color solid;
 		// &:hover {
 		// 	color: $txt-min-color;
 		// 	border: 1px $txt-sek-color solid;
 		// }
-		&.btn-no-border {
-			border: 0 #fff solid;
-		}
 	}
 	&.btn-black-color {
 		background-color: rgba(0,0,0,0.54);
@@ -251,12 +248,13 @@ $min-height: 60px;
 		color: $sek-color;
 	}
 	&.btn-grey2-color {
-		background-color: rgba(225,225,225,0);
-		color: $txt-sek-color;
-		&:hover {
-			background-color: rgba(225,225,225,0.54);
-			color: $txt-min-color;
-		}
+		background-color: rgba(0,0,0,0);
+		color: #fff;
+		border: 2px #fff solid;
+		// &:hover {
+		// 	background-color: rgba(225,225,225,0.54);
+		// 	color: $txt-min-color;
+		// }
 	}
 	&.btn-grey3-color {
 		background-color: rgba(225,225,225,0.34);
