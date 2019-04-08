@@ -15,7 +15,7 @@
 
                 <div class="a-p-col-2">
                     <div class="a-p-title txt-site txt-main-color txt-12">
-                        KPI
+                        KPI STOCK
                     </div>
                 </div>
 
@@ -25,22 +25,20 @@
         <div class="app-content margin-top-20px"></div>
 
 
+
         <!-- each contents 2 card ! -->
         <div class="app-card">
 
             <!-- remove link -->
             <div class="card-content">
-                <router-link to="/kpi/operation">
+                <router-link to="/kpi/stock/diagram">
                     <div class="c-c-top">
                         <div class="c-c-title">
-                            Operation
-                        </div>
-                        <div class="c-c-subtitle">
-                            13 Contents
+                            Diagram
                         </div>
                     </div>
                     <div class="c-c-mid">
-                        <div class="c-c-icn color-3">
+                        <div class="c-c-icn color-1">
                             <i class="fa fa-2x fa-chart-bar"></i>
                         </div>
                     </div>
@@ -48,47 +46,25 @@
             </div>
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        Operation Sales
-                    </div>
-                    <div class="c-c-subtitle">
-                        6 Contents
-                    </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-5">
-                        <i class="fa fa-2x fa-chart-bar"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-        <!-- each contents 2 card ! -->
-        <div class="app-card">
-
-            <!-- remove link -->
-            <div class="card-content">
-                <router-link to="/">
+                <router-link to="/kpi/stock/map">
                     <div class="c-c-top">
                         <div class="c-c-title">
-                            Stock
+                            Stock Monitor
                         </div>
                         <div class="c-c-subtitle">
-                            2 Contents
+                            Map
                         </div>
                     </div>
                     <div class="c-c-mid">
-                        <div class="c-c-icn color-2">
-                            <i class="fa fa-2x fa-chart-bar"></i>
+                        <div class="c-c-icn color-1">
+                            <i class="fa fa-2x fa-map-marker"></i>
                         </div>
                     </div>
                 </router-link>
             </div>
 
         </div>
+
 
 
     </div>

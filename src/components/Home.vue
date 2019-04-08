@@ -160,35 +160,39 @@
         <div class="app-card">
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        FLEET GPS
+                <router-link to="/fleet-gps">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            FLEET GPS
+                        </div>
+                        <div class="c-c-subtitle">
+                            Map
+                        </div>
                     </div>
-                    <div class="c-c-subtitle">
-                        Map
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-5">
+                            <i class="fa fa-2x fa-map-marker-alt"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-5">
-                        <i class="fa fa-2x fa-map-marker-alt"></i>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        SAP Interfaces
+                <router-link to="/sap-interfaces">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            SAP Interfaces
+                        </div>
+                        <div class="c-c-subtitle">
+                            4 Contents
+                        </div>
                     </div>
-                    <div class="c-c-subtitle">
-                        4 Contents
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-2">
+                            <i class="fa fa-2x fa-network-wired"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-2">
-                        <i class="fa fa-2x fa-network-wired"></i>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
         </div>

@@ -98,7 +98,7 @@
             </div>
 
             <div class="card-content">
-                <router-link to="/">
+                <router-link to="/kpi/operation/volume">
                     <div class="c-c-top">
                         <div class="c-c-title">
                             PR Execution by Volume
