@@ -22,13 +22,11 @@
                     <div class="a-p-icon">
                         
                         <!-- you can change it later -->
-                        <router-link to="/profile">
-                            <button class="btn btn-circle btn-main2-color">
-                                <span 
-                                    class="far fa-lg fa-user" 
-                                    style="font-size: 18pt;"></span>
-                            </button>
-                        </router-link>
+                        <button class="btn btn-circle btn-main2-color" @click="openProfile()">
+                            <span 
+                                class="far fa-lg fa-user" 
+                                style="font-size: 18pt;"></span>
+                        </button>
 
                     </div>
                 </div>
@@ -231,15 +229,17 @@
                 </div>
 
                 <div class="a-p-m-bot">
-                    <button class="btn btn-post-color btn-radius">
-                        LOGOUT
-                    </button>
+                    <router-link to="/">
+                        <button class="btn btn-post-color btn-radius">
+                            LOGOUT
+                        </button>
+                    </router-link>
                 </div>
 
             </div>
 
             <div class="app-profile-button">
-                <button class="btn btn-circle btn-grey2-color">
+                <button class="btn btn-circle btn-grey2-color" @click="openProfile()">
                     <i class="fa fa-2x fa-times"></i>
                 </button>
             </div>
@@ -257,6 +257,18 @@ export default {
     data () {
         return {
             popupProfile: false,
+        }
+    },
+    methods: {
+        openProfile () {
+            if (this.popupProfile == false) 
+            {
+                this.popupProfile = true
+            }
+            else 
+            {
+                this.popupProfile = false
+            }
         }
     }
 }

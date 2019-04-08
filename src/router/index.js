@@ -120,12 +120,12 @@ export default new Router({
       component: Pr
     },
     {
-      path: '/pr/l301',
+      path: '/pr/:id',
       name: 'pr-operation-content',
       component: PrThroughput
     },
     {
-      path: '/pr/l301/diagram',
+      path: '/pr/:id/diagram',
       name: 'pr-operation-diagram',
       component: PrDiagram
     },
@@ -137,12 +137,12 @@ export default new Router({
       component: Po
     },
     {
-      path: '/po/l301',
+      path: '/po/:id',
       name: 'po-operation',
       component: PoThroughput
     },
     {
-      path: '/po/l301/diagram',
+      path: '/po/:id/diagram',
       name: 'po-operation',
       component: PoDiagram
     },
@@ -155,12 +155,12 @@ export default new Router({
       component: So
     },
     {
-      path: '/so/l301',
+      path: '/so/:id',
       name: 'so-operation',
       component: SoThroughput
     },
     {
-      path: '/so/l301/diagram',
+      path: '/so/:id/diagram',
       name: 'so-operation',
       component: SoDiagram
     },
