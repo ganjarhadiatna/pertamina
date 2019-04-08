@@ -57,7 +57,7 @@
                     </div>
                     <div class="c-c-mid">
                         <div class="c-c-icn color-1">
-                            <i class="fa fa-2x fa-map-marker"></i>
+                            <i class="fa fa-2x fa-map-marker-alt"></i>
                         </div>
                     </div>
                 </router-link>

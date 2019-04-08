@@ -87,19 +87,21 @@
             </div>
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        PR
+                <router-link to="/pr">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            PR
+                        </div>
+                        <div class="c-c-subtitle">
+                            12 Contents
+                        </div>
                     </div>
-                    <div class="c-c-subtitle">
-                        12 Contents
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-5">
+                            <i class="fa fa-2x fa-chart-bar"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-5">
-                        <i class="fa fa-2x fa-chart-bar"></i>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
         </div>
@@ -118,35 +120,39 @@
         <div class="app-card">
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        PO STO
+                <router-link to="/po">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            PO STO
+                        </div>
+                        <div class="c-c-subtitle">
+                            12 Contents
+                        </div>
                     </div>
-                    <div class="c-c-subtitle">
-                        12 Contents
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-2">
+                            <i class="fa fa-2x fa-chart-bar"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-2">
-                        <i class="fa fa-2x fa-chart-bar"></i>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
             <div class="card-content">
-                <div class="c-c-top">
-                    <div class="c-c-title">
-                        SO
+                <router-link to="/so">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            SO
+                        </div>
+                        <div class="c-c-subtitle">
+                            12 Contents
+                        </div>
                     </div>
-                    <div class="c-c-subtitle">
-                        12 Contents
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-1">
+                            <i class="fa fa-2x fa-chart-bar"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="c-c-mid">
-                    <div class="c-c-icn color-1">
-                        <i class="fa fa-2x fa-chart-bar"></i>
-                    </div>
-                </div>
+                </router-link>
             </div>
 
         </div>
