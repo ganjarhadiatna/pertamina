@@ -7,7 +7,7 @@
 
                 <div class="a-p-col-1">
                     <div class="a-p-back">
-                        <button class="btn btn-circle btn-main2-color">
+                        <button class="btn btn-circle btn-main2-color" @click="$goBack()">
                             <i class="fa fa-2x fa-angle-left"></i>
                         </button>
                     </div>
