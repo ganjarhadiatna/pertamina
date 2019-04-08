@@ -38,7 +38,7 @@
                         <div class="c-c-title">
                             L301
                         </div>
-                        <div class="c-c-title">
+                        <div class="c-c-subtitle">
                             3 Contents
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                         <div class="c-c-title">
                             L302
                         </div>
-                        <div class="c-c-title">
+                        <div class="c-c-subtitle">
                             3 Contents
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                         <div class="c-c-title">
                             {{ 'L20' + item }}
                         </div>
-                        <div class="c-c-title">
+                        <div class="c-c-subtitle">
                             3 Contents
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                         <div class="c-c-title">
                             L302
                         </div>
-                        <div class="c-c-title">
+                        <div class="c-c-subtitle">
                             3 Contents
                         </div>
                     </div>

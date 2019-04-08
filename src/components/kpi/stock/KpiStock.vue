@@ -34,6 +34,9 @@
                 <router-link to="/kpi/stock/diagram">
                     <div class="c-c-top">
                         <div class="c-c-title">
+                            KPI Stock
+                        </div>
+                        <div class="c-c-subtitle">
                             Diagram
                         </div>
                     </div>
