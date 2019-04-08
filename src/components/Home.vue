@@ -39,10 +39,8 @@
         <!-- it make align for each side -->
         <div class="app-content margin-bottom-20px">
 
-
-
             <!-- not still perfect need more changes -->
-            <div class="app-banner">
+            <!-- <div class="app-banner">
                 <div 
                     class="image image-all"
                     style="background-image: url('https://www.pertamina.com/Media/Image/slider/Comercial.jpg')"></div>
@@ -51,13 +49,43 @@
                 <i class="icn active fa fa-lg fa-circle"></i>
                 <i class="icn fa fa-lg fa-circle"></i>
                 <i class="icn fa fa-lg fa-circle"></i>
-            </div>
+            </div> -->
+
+            <carousel 
+                :autoplay="true" 
+                :autoplayTimeout="2000"
+                :minSwipeDistance="0"
+                :scrollPerPage="true"
+                :perPage="1"
+                :paginationActiveColor="'#ed1b2f'"
+                :paginationPadding="3"
+                :paginationSize="15">
+                <slide v-for="(item, index) in 5" :key="index">
+                    <div class="app-banner">
+                        <div 
+                            class="image image-all"
+                            style="background-image: url('https://www.pertamina.com/Media/Image/slider/Comercial.jpg')"></div>
+                    </div>
+                </slide>
+            </carousel>
 
         </div>
 
+        <div class="padding-10px"></div>
+
         
         
-        
+        <!-- <carousel>
+            <slide>
+                Slide 1 content
+            </slide>
+            <slide>
+                Slide 2 content
+            </slide>
+            <slide>
+                Slide 2 content
+            </slide>
+        </carousel> -->
         
         
         
@@ -253,11 +281,18 @@
 </template>
 
 <script>
+
+import { Carousel, Slide } from 'vue-carousel';
+
 export default {
     data () {
         return {
             popupProfile: false,
         }
+    },
+    components: {
+        Carousel,
+        Slide
     },
     methods: {
         openProfile () {

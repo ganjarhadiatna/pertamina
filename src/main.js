@@ -4,9 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import underscore from 'vue-underscore'
+import VueCarousel from 'vue-carousel'
 
 Vue.config.productionTip = false
 Vue.use(underscore)
+Vue.use(VueCarousel)
 
 Vue.prototype.$goBack = function () {
   window.history.back()
