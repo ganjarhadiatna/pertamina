@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/components/Login'
 import Home from '@/components/Home'
 import FleetGps from '@/components/Map'
+import Percentage from '@/components/Percentage'
 
 // sap
 import SapInterfaces from '@/components/sap/Interfaces'
@@ -54,6 +55,11 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/test-percentage',
+      name: 'percentage',
+      component: Percentage
     },
     { 
       path: '/fleet-gps',

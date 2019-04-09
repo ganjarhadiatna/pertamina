@@ -226,7 +226,25 @@
                     </div>
                 </router-link>
             </div>
+            
 
+        </div>
+
+        <div class="app-card">
+            <div class="card-content">
+                <router-link to="/test-percentage">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            Test Percentage
+                        </div>
+                    </div>
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-4">
+                            <i class="fa fa-2x fa-cogs"></i>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
         </div>
 
 

@@ -55,6 +55,28 @@
             border-left: 4px $green-color solid;
         }
         .c-p-info {
+            @include post_center(absolute);
+            .title {
+                font-size: 16pt;
+                font-weight: 600;
+                color: $txt-84-color;
+            }
+            .subtitle {
+                font-size: 10pt;
+                color: $txt-34-color;
+            }
+        }
+    }
+    .c-c-pie {
+        position: relative;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        text-align: center;
+        .c-p-info {
             @include post_center(relative);
             .title {
                 font-size: 16pt;

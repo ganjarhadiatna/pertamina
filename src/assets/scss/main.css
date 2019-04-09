@@ -1459,7 +1459,7 @@
       border-right: 4px #60ff60 solid;
       border-left: 4px #60ff60 solid; }
     .card-content .c-c-percent .c-p-info {
-      position: relative;
+      position: absolute;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
@@ -1472,6 +1472,31 @@
         font-weight: 600;
         color: rgba(0, 0, 0, 0.84); }
       .card-content .c-c-percent .c-p-info .subtitle {
+        font-size: 10pt;
+        color: rgba(0, 0, 0, 0.34); }
+  .card-content .c-c-pie {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    text-align: center; }
+    .card-content .c-c-pie .c-p-info {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      .card-content .c-c-pie .c-p-info .title {
+        font-size: 16pt;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.84); }
+      .card-content .c-c-pie .c-p-info .subtitle {
         font-size: 10pt;
         color: rgba(0, 0, 0, 0.34); }
   .card-content .c-c-mid {
