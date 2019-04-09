@@ -111,7 +111,7 @@ a {
     background-color: #fff;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
     .app-panel-main {
         position: relative;
         width: calc(100% - 40px);

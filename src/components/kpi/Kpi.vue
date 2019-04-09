@@ -36,7 +36,7 @@
                             Operation
                         </div>
                         <div class="c-c-subtitle">
-                            13 Contents
+                            6 Contents
                         </div>
                     </div>
                     <div class="c-c-mid">

@@ -39,7 +39,7 @@
                             L301
                         </div>
                         <div class="c-c-subtitle">
-                            3 Contents
+                            14 Contents
                         </div>
                     </div>
                     <div class="c-c-mid">
@@ -57,7 +57,7 @@
                             L302
                         </div>
                         <div class="c-c-subtitle">
-                            3 Contents
+                            14 Contents
                         </div>
                     </div>
                     <div class="c-c-mid">
@@ -75,13 +75,13 @@
 
             <!-- remove link -->
             <div class="card-content">
-                <router-link to="/pr/l301">
+                <router-link to="/po/l301">
                     <div class="c-c-top">
                         <div class="c-c-title">
                             {{ 'L20' + item }}
                         </div>
                         <div class="c-c-subtitle">
-                            3 Contents
+                            14 Contents
                         </div>
                     </div>
                     <div class="c-c-mid">
@@ -99,7 +99,7 @@
                             L302
                         </div>
                         <div class="c-c-subtitle">
-                            3 Contents
+                            14 Contents
                         </div>
                     </div>
                     <div class="c-c-mid">

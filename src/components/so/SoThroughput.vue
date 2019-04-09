@@ -37,17 +37,23 @@
                         LO SO Throughput
                     </div>
                 </div>
-                <div class="c-c-percent line-25">
-
-                    <div class="c-p-info">
-                        <div class="title">
-                            25.5
-                        </div>
-                        <div class="subtitle">
-                            Percentage
+                <!-- change to c-c-pie -->
+                <div class="c-c-pie">
+                    <!-- untuk nilai persentase ada di "p25" -->
+                    <!-- nilai persentase hanya bisa bilangan bulat-->
+                    <!-- besar lingkaran ada di "default" terdapat beberapa ukuran "small", "big" "deafult" -->
+                    <!-- jika persentase 50% maka "p50" -->
+                    <!-- jika persentase 33.3% maka "p33" -->
+                    <div class="c100 p65 default green">
+                        <!-- nilai ini dirubah -->
+                        <span>
+                            65.5%
+                        </span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -57,17 +63,23 @@
                         GI LO Performance
                     </div>
                 </div>
-                <div class="c-c-percent line-50">
-
-                    <div class="c-p-info">
-                        <div class="title">
-                            50.5
-                        </div>
-                        <div class="subtitle">
-                            Percentage
+                <!-- change to c-c-pie -->
+                <div class="c-c-pie">
+                    <!-- untuk nilai persentase ada di "p25" -->
+                    <!-- nilai persentase hanya bisa bilangan bulat-->
+                    <!-- besar lingkaran ada di "default" terdapat beberapa ukuran "small", "big" "deafult" -->
+                    <!-- jika persentase 50% maka "p50" -->
+                    <!-- jika persentase 33.3% maka "p33" -->
+                    <div class="c100 p11 default green">
+                        <!-- nilai ini dirubah -->
+                        <span>
+                            11.5%
+                        </span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -86,17 +98,23 @@
                         GI SO Performance
                     </div>
                 </div>
-                <div class="c-c-percent line-25">
-
-                    <div class="c-p-info">
-                        <div class="title">
-                            25.5
-                        </div>
-                        <div class="subtitle">
-                            Percentage
+                <!-- change to c-c-pie -->
+                <div class="c-c-pie">
+                    <!-- untuk nilai persentase ada di "p25" -->
+                    <!-- nilai persentase hanya bisa bilangan bulat-->
+                    <!-- besar lingkaran ada di "default" terdapat beberapa ukuran "small", "big" "deafult" -->
+                    <!-- jika persentase 50% maka "p50" -->
+                    <!-- jika persentase 33.3% maka "p33" -->
+                    <div class="c100 p36 default green">
+                        <!-- nilai ini dirubah -->
+                        <span>
+                            36.5%
+                        </span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -106,17 +124,23 @@
                         LO ONTIME - SO Performance
                     </div>
                 </div>
-                <div class="c-c-percent line-50">
-
-                    <div class="c-p-info">
-                        <div class="title">
-                            50.5
-                        </div>
-                        <div class="subtitle">
-                            Percentage
+                <!-- change to c-c-pie -->
+                <div class="c-c-pie">
+                    <!-- untuk nilai persentase ada di "p25" -->
+                    <!-- nilai persentase hanya bisa bilangan bulat-->
+                    <!-- besar lingkaran ada di "default" terdapat beberapa ukuran "small", "big" "deafult" -->
+                    <!-- jika persentase 50% maka "p50" -->
+                    <!-- jika persentase 33.3% maka "p33" -->
+                    <div class="c100 p2 default green">
+                        <!-- nilai ini dirubah -->
+                        <span>
+                            2.5%
+                        </span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -134,17 +158,23 @@
                         LO DELAY - SO Performance
                     </div>
                 </div>
-                <div class="c-c-percent line-50">
-
-                    <div class="c-p-info">
-                        <div class="title">
-                            50.5
-                        </div>
-                        <div class="subtitle">
-                            Percentage
+                <!-- change to c-c-pie -->
+                <div class="c-c-pie">
+                    <!-- untuk nilai persentase ada di "p25" -->
+                    <!-- nilai persentase hanya bisa bilangan bulat-->
+                    <!-- besar lingkaran ada di "default" terdapat beberapa ukuran "small", "big" "deafult" -->
+                    <!-- jika persentase 50% maka "p50" -->
+                    <!-- jika persentase 33.3% maka "p33" -->
+                    <div class="c100 p33 default green">
+                        <!-- nilai ini dirubah -->
+                        <span>
+                            33.5%
+                        </span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
