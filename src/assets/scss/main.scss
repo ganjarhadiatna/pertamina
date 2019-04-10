@@ -274,3 +274,71 @@ a {
     }
 
 }
+
+
+// circle
+.app-throughput {
+    position: relative;
+    width: 100%;
+}
+
+.app-pie {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    .c-c-pie {
+        position: relative;
+        margin: auto;
+    }
+}
+
+// .progress-circle {
+//     position: relative;
+//     width: 300px;
+//     height: 300px;
+//     margin: auto;
+//     border-radius: 50%;
+//     background-color: #f0f0f0;
+//     .p-c-content {
+//         @include post_center(absolute);
+//         width: 200px;
+//         height: 200px;
+//         line-height: 150px;
+//         text-align: center;
+//         background-color: #fff;
+//         border-radius: 100%;
+//         .value {
+//             font-size: 22pt;
+//             color: $txt-84-color;
+//             font-weight: 600;
+//         }
+//     }
+//     &:after {
+//         content: '';
+//         width: 100%;
+//         height: 100%;
+//         border-radius: 50%;
+//         animation: colorload 2s;
+//         -webkit-animation: colorload 2s;
+//     }
+//     &.progress-10 {
+//         background-image: 
+//             linear-gradient(0deg, #fff 50%, transparent 50%, transparent),
+//             linear-gradient(30deg, $blue-color 50%, transparent 50%, transparent);
+//     }
+// }
+
+// @-webkit-keyframes colorload {
+//     0% {
+//       opacity: 0;
+//       transform: rotate(0deg)
+//     }
+//     100% {
+//       opacity: 1;
+//       transform: rotate(360deg)
+//     }
+// }

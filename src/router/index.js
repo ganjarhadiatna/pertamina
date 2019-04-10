@@ -4,6 +4,7 @@ import Login from '@/components/Login'
 import Home from '@/components/Home'
 import FleetGps from '@/components/Map'
 import Percentage from '@/components/Percentage'
+import Throughput from '@/components/Throughput'
 
 // sap
 import SapInterfaces from '@/components/sap/Interfaces'
@@ -60,6 +61,11 @@ export default new Router({
       path: '/test-percentage',
       name: 'percentage',
       component: Percentage
+    },
+    {
+      path: '/test-throughput',
+      name: 'throughput',
+      component: Throughput
     },
     { 
       path: '/fleet-gps',

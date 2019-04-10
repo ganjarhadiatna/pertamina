@@ -229,8 +229,12 @@
             
 
         </div>
+        
 
+        <!-- Jangan dimasukan -->
+        <!-- Ini hanya untuk test -->
         <div class="app-card">
+
             <div class="card-content">
                 <router-link to="/test-percentage">
                     <div class="c-c-top">
@@ -245,6 +249,23 @@
                     </div>
                 </router-link>
             </div>
+
+
+            <div class="card-content">
+                <router-link to="/test-throughput">
+                    <div class="c-c-top">
+                        <div class="c-c-title">
+                            Test Throughput
+                        </div>
+                    </div>
+                    <div class="c-c-mid">
+                        <div class="c-c-icn color-4">
+                            <i class="fa fa-2x fa-cogs"></i>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+
         </div>
 
 

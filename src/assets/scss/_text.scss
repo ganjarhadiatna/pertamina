@@ -87,6 +87,9 @@
 	&.txt-init {
 		color: $min-color;
 	}
+	&.txt-green {
+		color: $green-color;
+	}
 	&.txt-underline-hover {
 		&:hover {
 			text-decoration: underline;
